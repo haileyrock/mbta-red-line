@@ -1,0 +1,18 @@
+{
+  "name": "mbta-red-line-alert",
+  "version": "1.0.0",
+  "description": "Daily Red Line MBTA alerts via email",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": ["mbta", "alerts", "email", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7"
+  }
+}
